@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Look Who's Logged On</title>
+     <script src="./lib/jquery/jquery-1.8.2.js" charset="utf-8"></script>
+    <script src="./lib/jquery/jquery-ui.js" charset="utf-8"></script>
+    <script src="lib/gitter/jquery.gritter.js" charset="utf-8"></script>
+    <script src="lib/handlebars/handlebars-v4.0.5.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/custom.css"/>
+    <link rel="stylesheet" href="css/jquery.gritter.css"/>
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css"/>
+</head>
+<body>
+
+    <h1>Messenger</h1>
+
+    <div class="message_area">
+            <ul id="chat_list"></ul>
+    </div>
+    
+    <div class="chat_area">
+        <input type = 'text' name="message" id="message" size="20" placeholder="type message here..."/>
+          <input type="button" id="send_message" value="Send"/>
+    </div>
+    
+    <div class="user_add">
+        <h4>Join Conversation</h4>
+        <form>
+            <label>What's your name: </label>
+            <input type="text" name="user_name" id="new_user" size="20"/> 
+            <input type="button" id="add_user" value="Join"/>
+        </form>
+    </div>
+    <script src="javascript/main.js" charset="utf-8"></script>
+    <script src="javascript/update_chat.js" charset="utf-8"></script>
+</body>
+</html>

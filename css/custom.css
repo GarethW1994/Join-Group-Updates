@@ -1,0 +1,23 @@
+.message_area {
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+}
+
+.chat_area {
+    display: flex;
+    width: 300px;
+    border:  1px solid;
+}
+
+#message {
+    position: relative;
+    width: 80%;
+    
+}
+
+#send_message {
+    position: relative;
+    width: 20%;
+    
+}
